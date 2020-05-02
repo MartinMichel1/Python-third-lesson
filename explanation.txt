@@ -1,0 +1,2 @@
+I created a program with two different functions, both returning the same result.
+As described in the program itself, I prefer first function ("first_solution").

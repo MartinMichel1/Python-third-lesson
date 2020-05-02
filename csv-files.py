@@ -1,7 +1,8 @@
 import csv
+import time
 
 
-def one_solution():
+def first_solution():
     reader = csv.DictReader(people)
     for row in reader:
         print(row['Name'], "is", row['Gender'], "and", row['Age'], "years old")
@@ -16,5 +17,7 @@ def second_solution():
 
 
 with open("people.csv", "r") as people:
-    one_solution()
+    first_solution()
     second_solution()
+
+time.sleep(5)
